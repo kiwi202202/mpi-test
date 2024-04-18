@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-Plonky2-lib = { path = "../Plonky2-lib" }
+Plonky2-lib = { git = "https://github.com/Orbiter-Finance/Plonky2-lib.git", branch = "aggregator", default-features = true }
 mpi = "0.7"
